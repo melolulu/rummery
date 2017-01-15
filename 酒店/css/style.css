@@ -1,0 +1,588 @@
+/*通用部分*/
+.cp {
+    cursor: pointer;
+}
+
+body .heise {
+    color: black;
+}
+
+.baise {
+    color: white;
+}
+
+.zongse {
+    color: #AC875A;
+}
+
+.teihuise {
+    color: #413931;
+}
+
+.bg-baise {
+    background-color: white;
+}
+
+.bg-zongse {
+    background-color: #AC875A;
+}
+
+.bg-eee {
+    background-color: #eee;
+}
+.bg-fff {
+    background-color: #fff;
+}
+.fz14 {
+    font-size: 14px;
+}
+
+.fz16 {
+    font-size: 16px;
+}
+
+.fz18 {
+    font-size: 18px;
+}
+
+.fz20 {
+    font-size: 20px;
+}
+
+.fz22 {
+    font-size: 22px;
+}
+
+.fz26 {
+    font-size: 26px;
+}
+
+.lh24 {
+    line-height: 24px;
+}
+
+.lh30 {
+    line-height: 30px;
+}
+
+.lh36 {
+    line-height: 36px;
+}
+
+.lh40 {
+    line-height: 40px;
+}
+
+.lh72 {
+    line-height: 72px;
+}
+
+.lh80 {
+    line-height: 80px;
+}
+
+.ml15 {
+    margin-left: 15px;
+}
+
+.ml20 {
+    margin-left: 20px;
+}
+
+/*!
+ * ------------------------首页
+ */
+/*----头----*/
+header .nav{
+    padding-left: 45px;
+}
+.logo {
+    height: 80px;
+    background: #282828 url(../images/logo.jpg) no-repeat 30px 16px;
+}
+
+.navbar li:hover a {
+    border-bottom: #875435 solid 3px;
+}
+
+.navbar a {
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+}
+
+
+/*内容第一板块*/
+
+.carousel, .carousel-inner .item {
+    height: 665px;
+}
+
+.carousel-inner img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+i.glyphicon {
+    background-image: url(../images/icon.png);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 25px;
+}
+
+.glyphicon-chevron-left {
+    background-position: 0 -360px;
+}
+
+.glyphicon-chevron-right {
+    background-position: 0 -420px;
+}
+
+.caption {
+    padding-top: 40px;
+}
+
+.overview-1, .overview-2, .overview-3 {
+    width: 290px;
+    margin-left: 685px;
+    padding: 19px;
+}
+
+.overview-1 {
+    height: 88px;
+    background-color: rgba(69, 83, 102, .88);
+}
+
+.overview-2 {
+    height: 230px;
+    padding: 18px 20px;
+    background-color: rgba(255, 255, 255, .8);
+}
+
+.overview-2 > div > div {
+    width: 120px;
+}
+
+.overview-2 .btn {
+    padding: 7px 83px;
+}
+
+.overview-2 > div:last-child {
+    padding-left: 40px;
+}
+
+.o2-date, .o2-week {
+    float: left;
+}
+
+.o2-date {
+    margin-left: 15px;
+    line-height: 40px;
+}
+
+.o2-week {
+    padding-left: 10px;
+    line-height: 20px;
+}
+
+.overview-3 {
+    height: 88px;
+    margin-top: 28px;
+    background-color: rgb(69, 83, 102);
+}
+
+.overview-4 {
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0, 0, 0, .6);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.overview-4 > div {
+    float: left;
+}
+
+.slogan {
+    width: 654px;
+    padding-left: 35px;
+}
+
+.slogan span {
+    letter-spacing: 8px;
+}
+
+.camer {
+    width: 144px;
+    padding: 50px 31px 0;
+    background: url(../images/camer-icon.png) no-repeat 60px 15px;
+    position: relative;
+}
+
+.camer:before {
+    left: 0;
+}
+
+.camer:after {
+    right: 0;
+}
+
+.camer:before, .camer:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 10px;
+    width: 1px;
+    height: 60px;
+    background-color: #FFF;
+}
+
+.climat {
+    width: 224px;
+    padding: 20px 30px 0;
+}
+
+
+/*内容第二板块*/
+
+.two-module .col-md-8 {
+    padding-right: 0;
+}
+
+.two-module > div:nth-child(1), .two-module > div:nth-child(2) {
+    height: 194px;
+    overflow: hidden;
+}
+
+.two-module > div:nth-child(2) {
+    width: 31.7%;
+    margin-left: 15px;
+}
+
+.jumbotron {
+    width: 364px;
+    position: relative;
+}
+
+.jumbotron-cum:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 379px;
+    top: 65px;
+    width: 1px;
+    height: 110px;
+    background-color: #CCC;
+}
+
+.two-module .jumbotron p:last-child {
+    padding-top: 8px;
+}
+
+.jumbotron p:last-child a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 50px;
+}
+
+.jumbotron-cum {
+    width: 248px;
+    padding-top: 68px;
+    padding-left: 50px;
+}
+
+.two-module .col-xs-4:before, .vmd:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em;
+}
+
+.two-module .col-xs-4 > div, .vmd > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.two-b {
+    margin-top: 20px;
+    width: 311px;
+    height: 110px;
+}
+
+
+/*内容第三板块*/
+
+.three-module {
+    background-color: #e7e7e7;
+}
+
+.three-module .col-xs-12 {
+    background-color: transparent;
+    padding: 5px 0 0;
+}
+
+.three-module .col-xs-12 a {
+    margin-top: 20px;
+}
+
+.three-module .btn {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+/* 横向滚动
+------------------------------ */
+
+.scroll_horizontal {
+    position: relative;
+    padding: 10px;
+    background-color: #eee;
+}
+
+.scroll_horizontal .box {
+    overflow: hidden;
+    position: relative;
+    width: 964px;
+    margin: 0 auto;
+}
+
+.scroll_horizontal .list {
+    overflow: hidden;
+    width: 9999px;
+    padding: 0;
+}
+
+.scroll_horizontal .list li {
+    float: left;
+    width: 328px;
+    list-style: none;
+}
+
+.scroll_horizontal .glyphicon-chevron-left, .scroll_horizontal .glyphicon-chevron-right {
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    width: 40px;
+    height: 50px;
+    background-image: url(../images/icon.png);
+    background-repeat: no-repeat;
+    font: 0/0 Arial;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.scroll_horizontal .glyphicon-chevron-left {
+    left: -15px;
+    background-position: 0 -240px;
+}
+
+.scroll_horizontal .glyphicon-chevron-right {
+    right: -15px;
+    background-position: 0 -300px;
+}
+
+.depict {
+    background-color: white;
+    height: 110px;
+    margin-right: 20px;
+    padding: 24px 20px;
+}
+
+.depict .glyphicon {
+    margin-top: 20px;
+}
+
+.depict:hover .glyphicon {
+    color: #1d1d1d;
+}
+
+
+/*内容第四板块*/
+
+.four-module {
+    background: url(../images/BIgTu.png) no-repeat;
+    height: 415px;
+}
+
+.four-module .jumbotron {
+    top: 60px;
+    width: 600px;
+    height: 206px;
+    background-color: rgba(0, 0, 0, .6);
+    padding-top: 25px;
+    padding-left: 30px;
+}
+
+.four-module h1 {
+    margin: 0;
+    color: transparent;
+    font-size: 45px;
+    background: url(../images/font.png) no-repeat;
+}
+
+.four-module p {
+    font-size: 16px;
+}
+
+.four-module a:hover,footer a:hover{
+    color: #F9CC9D;
+}
+
+
+/*内容第五板块*/
+
+.five-module .col-xs-6 {
+    width: 472px;
+    height: 94px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.five-module .col-xs-6 i {
+    margin-top: -5px;
+    width: 44px;
+    height: 45px;
+}
+
+
+/*内容第六板块*/
+
+.six-module {
+    background-color: #FFF;
+    height: 100px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+/*-----icon-----*/
+
+.icon-1 {
+    background-position: 0 -27px;
+}
+
+.icon-2 {
+    background-position: 0 -57px;
+}
+
+.icon-3 {
+    background-position: 6px -90px;
+}
+
+.icon-4 {
+    background-position: 0px -115px;
+}
+
+.icon-5 {
+    background-position: 0px -143px;
+}
+
+.icon-6 {
+    background-position: 0px -180px;
+}
+
+.icon-7 {
+    background-position: 0px -480px;
+}
+
+
+/*----尾----*/
+
+footer ul {
+    padding: 0;
+}
+footer li{
+    list-style: none;
+}
+.footer-warp > div{
+    background-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
+}
+footer .col-xs-3{
+    width: 225px;
+}
+footer h4, footer li a{
+    color: white;
+}
+footer > div:nth-last-child(2){
+    margin-top: 70px;
+    margin-bottom: 180px;
+}
+.sites-map a{
+    margin: 0 10px;
+}
+.sites-v a{
+    margin: 0 8px;
+    position: relative;
+}
+.sites-v a:not(:last-child):before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 1px;
+    height: 12px;
+    background-color: #8f8f8f;
+    right: -10px;
+    top: 4px;
+}
+/*!
+ * ------------------------图片
+ */
+/*内容模块---左*/
+.left-module{
+    width: 22%;
+    padding: 10px 40px 0 25px;
+    line-height: 30px;
+}
+.left-module ul{
+    padding-left: 18px;
+}
+.left-module h5{
+    color: #413931;
+}
+.left-module .glyphicon-menu-right{
+    top: 8px;
+}
+.left-module .btn{
+    margin-top: 30px;
+    padding: 6px 35px;
+}
+/*内容模块---右*/
+.right-module{
+    width: 78%;
+}
+.right-module .video{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.right-module h6{
+    color: black;
+}
+.r-box{
+    width: 762px;
+    margin-bottom: 30px;
+}
+.r-boxs{
+    background-color: #EDE9DD;
+    margin-bottom: 20px;
+}
+.r-boxs h6{
+    margin-bottom: 0;
+    padding: 10px;
+    border-bottom: 1px solid #444340;
+}
+.r-boxs div{
+    padding: 10px 0px 20px 10px;
+    border-top: 1px solid #8A8881;
+}
+.r-boxs img:not(:nth-child(7n)){
+    margin-right: 12px;
+}
+.r-boxs img:nth-child(7) ~ img{
+    margin-top: 10px;
+}
